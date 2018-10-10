@@ -1,0 +1,350 @@
+<!doctype <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<style>
+    #header{background-color: #3c5a98;
+             height:10%}
+    #body   {
+            background-color: #dde1ed;
+            height:70%; 
+            }
+    #leftdiv{float:left;
+             width:500px;
+             height:400px;
+             margin-left: 17%;
+            }       
+    #imagediv{
+              width:550px; 
+              height:150px;
+             } 
+    #lefttext{
+              width:550px;
+              height:100px;
+              padding:30px;
+             }         
+    #font{ font-size: 17px;
+           color:#0e385f;
+           font-family: Arial, Helvetica, sans-serif;
+           line-height: 29px;
+           font-weight:bold;
+           word-spacing: -1px;
+           } 
+   #rightdiv{
+             float:right;
+             width:350px;
+             height:100%;
+             margin-right: 200px;
+             background-color: #dde1ed;
+             }          
+        #form{
+             width:170px;
+              
+            }
+        #footer{
+                background-color: white;
+                height:20%;
+             }
+         #form2 {
+            width:340px;
+               }
+        #day {   
+             width:50px;
+             height:30px;
+             }         
+        #month{         
+               width:50px;
+               height:30px;
+               }
+        #year{
+               width:60px;
+               height:30px;
+              }
+        #tinytext{
+                 font-size: 10px;
+                 color:#0e385f;
+                 float:right;
+                 margin-right: 35px;
+                 }
+        #tinytext2{
+                font-size: 11px;
+                  }
+        #Terms{
+                            
+               color:#0e385f;
+               font-weight: bold;
+               }
+        #button{
+                width:180px;
+                border:0.5px solid black;
+                height:35px;
+                background-color: #5d974a;
+                }
+        #tinytext3{
+                font-size:12px;
+                padding:22px 0px;
+                }
+        #logindiv {
+                float:right;  
+                height:100%;
+                width: 40%;
+                }
+      
+        #password{
+                 padding-top: 15px;
+                 float:right;
+                 margin-top: 0px;
+                 width:120px;
+                 margin-right: 280px;
+                 }
+        #email   {
+                 padding-top: 15px;
+                 float:left;
+                 width:120px;
+                 margin-left: 0px;
+                 height:30px;
+        }
+        #but {
+                 float:right;
+                 background-color: #4267b2;
+                 margin-top: 30px;
+                 margin-right:-180px;
+                 width: 50px;
+                 height:25px;
+                 border:none;
+                }
+        #emailtext{
+                  font-size: 10px;
+                  line-height: 5px;
+                  color:white;
+                  }
+       #pwdtext{
+                  font-size: 10px;
+                  line-height: 5px;
+                  color:white;
+                  }
+        #forgotten{
+                  font-size: 10px;
+                  color:#bdc7db;
+                  }
+        #facebook{
+                  width:220px;
+                  height:100%;
+                  background-color: white;
+                  float:left;
+                  margin-top:0px;
+                  margin-left:-665px;
+                  background-color: #3c5a98;
+                 }
+         #fbtext {
+                font-size: 40px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold; 
+                color:white;
+                margin-top: 13px;
+                 }
+        #footertext1
+                   {
+                font-size: 11px;
+                margin-left:200px;
+                margin-top:30px;
+                line-height: 0.5px;
+                word-spacing: 3px;
+                   }
+         #footertext2
+                   {
+                font-size: 11px;
+                margin-left:200px;
+                margin-top:20px;
+                line-height: 0.5px;
+                word-spacing: 3px;
+                   }
+         #footertext3
+                   {
+                font-size: 11px;
+                margin-left:200px;
+                margin-top:20px;
+                margin-bottom: 20px;
+                line-height: 0.5px;
+                word-spacing: 3px;
+                   }
+         #copyright{
+                font-size: 10px;
+                margin-left:200px;
+                margin-top:40px;
+                margin-bottom: 10px;
+                word-spacing: 0.5px;
+                   }
+         #footertext1 a{padding-right: 5px;}
+         #footertext2 a{padding-right: 5px;} 
+         #footertext3 a{padding-right: 5px;}
+         #footertext3 a :last-child{padding-right: none;}
+</style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div id="header" style="margin:0";>
+            <div id="logindiv">
+                <div class= "form group" id="email">
+                    <p id="emailtext">Email or Phone:</p>
+                    <input type="email or number" class"form-control"  name="Email or Phone" style="width:120px">
+                </div>
+                <div class="form group" id="password">
+                    <p id="pwdtext">Password:</p>
+                    <input type="password" class"form-control" id="pwd" name="pwd"style="width:120px">
+                    <p id="forgotten">forgotten account?</p>
+                </div>
+                    <button type="button" class="btn btn-success" id="but"><p style="font-size: 10px">Log In</p></button>
+                <div id="facebook">
+                    <p id="fbtext">facebook</p>
+                </div>          
+            </div>
+        </div> 
+        <div id="body">
+           
+            <div id="leftdiv">
+                <div id="lefttext">
+                   <p id ="font">
+                       Facebook helps you connect and share with the<br> people in your life.
+                   </p>
+                </div>    
+                <div id="imgaediv">
+                   <img src="images/img13.png" alt="facebook" width="400px" height="120px" style="margin-left:30px">
+                </div>
+            </div>
+            <div id="rightdiv">
+                <h2>
+                    <b>Create an account</b>
+                </h2>
+                <p>
+                    It's free and always will be
+                </p>
+                <form class = "form-inline">
+                    <div class="form-group">
+                         <label class="sr-only" for="First name">First name</label>
+                         <input type="text" class="form-control" id="form" placeholder="First name" name="First name">
+                    </div>
+                    <div class="form-group">
+                         <label class="sr-only" for="Surname">Surname</label>
+                         <input type="text" class="form-control" id ="form" placeholder="Surname" name="Surname">
+                    </div>
+                </form>
+                <form>
+                    <div class="form-group">
+                        <label class="sr-only" for="Mobile number or email address">Mobile number or email address</label>
+                        <input type="text" class="form-control" id="form2" placeholder="Mobile number or email address" name="Mobile number or email address">
+                    </div>
+                </form>
+                <form>
+                    <div class="form-group">
+                        <label class="sr-only" for="New password">New password</label>
+                        <input type="text" class="form-control" id="form2" placeholder="New password" name="New password">
+                        <span class= "caret"></span></button>
+                    </div>
+                </form>
+                <p><b>Birthday</b></p>
+                
+                <form>
+                  <div>
+                    <select id="day" name="day">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select>                 
+                     <select id="month" name="month">
+                         <option value="Jan">Jan</option> 
+                         <option value="Feb">Feb</option>
+                         <option value="Mar">Mar</option>
+                         <option value="Apr">Apr</option>  
+                         <option value="May">May</option>  
+                         <option value="Jun">Jun</option>  
+                         <option value="Jul">Jul</option>  
+                         <option value="Aug">Aug</option>  
+                         <option value="Sep">Sep</option>  
+                         <option value="Oct">Oct</option>  
+                         <option value="Nov">Nov</option>
+                         <option value="Dec">Dec</option>     
+                     </select>
+                     <select id="year" name="year">
+                         <option value="2018">2018</option>
+                         <option value="2017">2017</option>
+                         <option value="2016">2016</option>
+                         <option value="2015">2015</option>
+                         <option value="2014">2014</option>
+                         <option value="2013">2013</option>
+                         <option value="2012">2012</option>
+                         <option value="2011">2011</option>
+                         <option value="2010">2010</option>
+                         <option value="2009">2009</option>
+                     </select>
+                     <p id="tinytext">
+                         <b>Why do i need to provide my <br>date of birth?</b>
+                     </p>
+                  </div>
+                </form>
+                <div class="checkbox">
+                    <label><input type="checkbox">Female</label>
+                    <label><input type="checkbox">Male</label>
+
+                </div>
+                <p id="tinytext2">
+                    By clicking Sign Up, you agree to our  <span id="Terms"> Terms, Data policy and <br>Cookie Policy.</span> You may recieve SMS 
+                    notification from us and <br>can opt out at any time.
+                </p>                    
+                <button type="button" class="btn btn-success" id="button">Sign Up</button>
+                <p id="tinytext3">
+                    <span id="Terms">Create a Page</span> for a celebrity, band or business.
+                </p>
+            </div>                     
+       
+        </div>
+        <div  id="footer">
+         <p id="footertext1">English(Uk) <a href="#"> Hausa</a> <a>Francais(France)</a> <a>Portugues(Brasil)</a> <a>Espanol</a><a>العربي</a><a>Bahasa Indonesia</a><a>Deutsch</a><a>日本語</a><a>Italiano</a><a>हिन्दी</a></p>
+         <hr>
+         <p id="footertext2"> <a>Sign Up</a><a>Log In</a><a>Messenger</a><a>Facebook Lite</a><a>Mobile</a><a>Find Friends</a><a>People</a><a>Pages</a><a>Video interests</a><a>Places</a><a>Games</a><a>Locations</a><a>Marketplace</a><a>Groups</a></p>
+         <p id="footertext3"><a>Instagram</a><a>Local</a><a>About</a><a>Create ad</a><a>Create Page</a><a>Developers</a><a>Careers</a><a>Privacy</a><a>Cookies</a><a>AdChoices<span class="glyphicon glyphicon-envelope"></span> </a><a>Terms</a><a>Account security</a><a>Login help</a><a>Help</a></p>
+         <p id="copyright">Facebook &copy 2018</p>
+        </div>
+                
+    </div>            
+
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>                
+</body>
+</html>
